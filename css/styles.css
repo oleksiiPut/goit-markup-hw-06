@@ -753,6 +753,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition-property: background-color;
+  transition-duration: var(--general-duration);
+  transition-timing-function: var(--general-function);
+}
+
+.newsletter-field-btn:hover,
+.newsletter-field-btn:focus {
+  background-color: #188ce8;
 }
 
 .send-icon {
