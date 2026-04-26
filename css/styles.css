@@ -1005,6 +1005,7 @@ h6 {
 
   .footer-email-wrapper {
     align-items: flex-start;
+    width: 100%;
   }
 
   .footer-form {
