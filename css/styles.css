@@ -169,7 +169,7 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-style: normal;
-  color: #4d5ae5;
+  color: inherit;
 }
 
 .mob-menu-tel-link {
@@ -178,7 +178,7 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-style: normal;
-  color: inherit;
+  color: #4d5ae5;
 }
 
 /* .mob-menu-address-link:hover,
@@ -196,11 +196,10 @@ h6 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* color: #404bbf; */
-  color: inherit;
+  color: #2e2f42;
 }
 
-.mob-nav-item.current {
+.nav-menu-link.current {
   color: #404bbf;
 }
 
@@ -557,7 +556,7 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
 }
 
 .footer-email-input {
@@ -1008,6 +1007,10 @@ h6 {
     align-items: flex-start;
   }
 
+  .footer-form {
+    gap: 24px;
+  }
+
   .modal {
     padding: 72px 24px 24px;
     max-width: 408px;
@@ -1120,7 +1123,7 @@ h6 {
   }
 
   .footer {
-    padding: 120px 0;
+    padding: 100px 0;
   }
 
   .footer-wrapper {
