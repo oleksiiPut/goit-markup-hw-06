@@ -556,7 +556,7 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* gap: 16px; */
+  gap: 16px;
 }
 
 .footer-email-input {
@@ -763,7 +763,7 @@ h6 {
 }
 
 .modal-checkbox-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
