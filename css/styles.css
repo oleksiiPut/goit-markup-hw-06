@@ -958,7 +958,7 @@ h6 {
   }
 
   .features-item-text {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .team .container {
@@ -1076,6 +1076,10 @@ h6 {
 
   .features-item {
     width: calc((100% - 24px * 3) / 4);
+  }
+
+  .features-item-text {
+    font-weight: 400;
   }
 
   .features-icon-wrapper {
